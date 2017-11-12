@@ -1,0 +1,105 @@
+.header{
+    background-color: black;
+       min-height: 107px;
+     
+}
+.nav_bar{padding-top: 25px;}
+.new_nav{
+    background-image: none;
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    
+}
+.nav li a{color: white !important;}
+.logo{
+    padding-top: 17px;
+}
+.bgimageofslider{
+    background-image: url(main_snowboarding.jpg); background-repeat: no-repeat;
+    min-height: 649px;background-size: cover;
+}
+.h_caption{width: 35%;margin: 200px auto;font-family: inherit;}
+.h_caption h1{color: white; font-weight: bolder; font-size: 80px;text-transform: uppercase;}
+.see_details{color: white;background-color: black; border: 0;padding: 15px 50px;float: right;margin-top: 2%;}
+.multi-item-carousel .carousel-inner > .item {
+  -webkit-transition: 500ms ease-in-out left;
+  transition: 500ms ease-in-out left;
+}
+.multi-item-carousel .carousel-inner .active.left {
+  left: -33%;
+}
+.multi-item-carousel .carousel-inner .active.right {
+  left: 33%;
+}
+.multi-item-carousel .carousel-inner .next {
+  left: 33%;
+}
+.multi-item-carousel .carousel-inner .prev {
+  left: -33%;
+}
+@media all and (transform-3d), (-webkit-transform-3d) {
+  .multi-item-carousel .carousel-inner > .item {
+    -webkit-transition: 500ms ease-in-out left;
+    transition: 500ms ease-in-out left;
+    -webkit-transition: 500ms ease-in-out all;
+    transition: 500ms ease-in-out all;
+    -webkit-backface-visibility: visible;
+            backface-visibility: visible;
+    -webkit-transform: none!important;
+            transform: none!important;
+  }
+}
+.multi-item-carousel .carouse-control.left,
+.multi-item-carousel .carouse-control.right {
+  background-image: none;
+}
+body {
+  background: #333;
+  color: #ddd;
+}
+h1 {
+  color: white;
+  font-size: 2.25em;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  text-shadow: 0px 2px 0px #000000;
+}
+.carousel{
+    background-color: white;margin-bottom: 100px;
+}
+.whiteBG{
+    background-color: white !important;
+    padding-top: 45px;
+}
+.remove_shadow{background-image: none !important;}
+.feature_header{
+    color: black;
+    text-align: center;
+    margin: 0 auto;font-weight: bold;font-size: 10pt;
+}
+.feature_header h1{margin: 0;}
+.feature_header p{margin-top: 30px;}
+.achievement{
+    background-image: url(aciesnowboarding.jpg);
+    min-height: 955px;background-repeat: no-repeat;background-size: cover;
+}
+.achi_text{
+    min-height: 603px;
+    width: 480px;
+   padding-top: 400px;
+    margin-left: 300px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.features_features{
+    color: black;
+}
+.f_t_i{
+    margin-top: 50px;
+    text-align: center;
+}
+.f_t_i i{
+    color: black;font-size: 50px;margin-bottom: 80px;
+}

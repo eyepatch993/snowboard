@@ -1,0 +1,8 @@
+@media (max-width: 767px) { .h_caption{width: 70%;margin: 100px auto;font-family: inherit;}
+.h_caption h1{color: white; font-weight: bolder; font-size: 20px;text-transform: uppercase;}
+.see_details{color: white;background-color: black; border: 0;padding: 15px 50px;float: right;margin-top: 7%;} }
+@media (min-width: 768px) and (max-width: 991px) { .h_caption{width: 80%;margin: 200px auto;font-family: inherit;}
+.h_caption h1{color: white; font-weight: bolder; font-size: 100px;text-transform: uppercase;}
+.see_details{color: white;background-color: black; border: 0;padding: 0 auto;float: right;margin-top: 7%;} }
+@media (min-width: 992px) and (max-width: 1199px) { ... }
+@media (min-width: 1200px) { ... }
